@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import "@material-ui/icons";
 
 import { removeItem } from "./actions/cartActions";
 import "../styles/cartStyles.scss";
