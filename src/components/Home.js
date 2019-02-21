@@ -5,7 +5,7 @@ import { addtoCart } from "./actions/cartActions";
 import "../styles/cartStyles.scss";
 
 class Home extends Component {
-  //add to cart click event handling  
+  //add to cart click event handling
   handleAddtoCart = id => {
     this.props.addtoCart(id);
   };
@@ -56,6 +56,7 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
+//connect the component with the store
 export default connect(
   mapStateToProps,
   mapDispatchToProps
